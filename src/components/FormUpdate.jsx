@@ -74,9 +74,8 @@ export default class FormUpdate extends Component {
 
   onChange(e) {
     const title = e.target.title;
-    const value = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
-    
-    this.setState({[title] : value});
+    const valuei = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
+    this.setState({[title] : valuei});
 }
 
   onChange2(e){

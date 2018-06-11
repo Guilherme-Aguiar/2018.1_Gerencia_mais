@@ -74,12 +74,8 @@ export default class FormDoctorForm extends Component {
 
   onChange(e) {
     const title = e.target.title;
-    const value = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
-
-
-
-    
-    this.setState({[title] : value});
+    const valueu = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
+    this.setState({[title] : valueu});
 }
 
   onChange2(e){

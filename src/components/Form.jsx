@@ -74,9 +74,8 @@ export default class Form extends Component {
 
   onChange(e) {
     const title = e.target.title;
-    
-    const value = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
-    this.setState({[title] : value});
+    const valuee = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
+    this.setState({[title] : valuee});
 }
 
   onChange2(e){
