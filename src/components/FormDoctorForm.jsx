@@ -91,7 +91,6 @@ export default class FormDoctorForm extends Component {
     })
   }
   async handleChange2(e){
-     var doctor_name = "Ramos";
      await this.setState({
       subtitle: e.target.value
     });
