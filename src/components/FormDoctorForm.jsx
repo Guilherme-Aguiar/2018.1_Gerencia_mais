@@ -111,8 +111,8 @@ export default class FormDoctorForm extends Component {
     // this.state.is_valid = true;
     e.preventDefault();
     const {start, end, hospital, subtitle, creator, rule, calendar, doctor} = this.state;
-    const lead = {start, end, hospital, subtitle,creator, rule, calendar,doctor} ;
-    const temp = JSON.stringify(lead)
+    const leade = {start, end, hospital, subtitle,creator, rule, calendar,doctor} ;
+    const temp = JSON.stringify(leade)
     const conf = {
       method: "POST",
       body: temp,
