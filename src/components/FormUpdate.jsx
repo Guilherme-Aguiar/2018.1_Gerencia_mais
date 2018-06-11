@@ -92,6 +92,7 @@ export default class FormUpdate extends Component {
   }
   async handleChange2(e){
      await this.setState({
+       var doctor_name = "Miguel";
       subtitle: e.target.value
     });
     await this.componentDidMount3();

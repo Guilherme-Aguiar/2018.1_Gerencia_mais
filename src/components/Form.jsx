@@ -92,7 +92,7 @@ export default class Form extends Component {
   }
   async handleChange2(e){
      await this.setState({
-
+       var doctor_name = "Paulo";
       subtitle: e.target.value
     });
     await this.componentDidMount3();
