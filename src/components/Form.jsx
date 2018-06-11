@@ -74,6 +74,7 @@ export default class Form extends Component {
 
   onChange(e) {
     const title = e.target.title;
+    
     const value = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
     this.setState({[title] : value});
 }
@@ -92,6 +93,7 @@ export default class Form extends Component {
   }
   async handleChange2(e){
      await this.setState({
+
       subtitle: e.target.value
     });
     await this.componentDidMount3();

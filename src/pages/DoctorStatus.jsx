@@ -47,8 +47,12 @@ export default class DoctorStatus extends Component {
 
   onChange(e){
     const title = e.target.title;
+
+
     const value = e.target.value === 'checkbox' ? e.target.checked : e.target.value;
+
     this.setState({[title] : value});
+    
   }
 
   async onClick(e) {
