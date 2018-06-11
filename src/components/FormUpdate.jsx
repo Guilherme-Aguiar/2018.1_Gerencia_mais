@@ -31,7 +31,7 @@ export default class FormUpdate extends Component {
       all_doctors: [],
     }
      this.onChange = this.onChange.bind(this);
-     this.onChange2 = this.onChange2.bind(this);
+     this.On2Change = this.On2Change.bind(this);
   }
 
   async componentDidMount2() {
@@ -78,7 +78,7 @@ export default class FormUpdate extends Component {
     this.setState({[title] : valuei});
 }
 
-  onChange2(e){
+  On2Change(e){
     const title = e.target.title;
     this.setState(
       {[title]: e.target.checked}
